@@ -83,7 +83,7 @@
         }
       ],
       "no-console": "off",
-      "indent": "off"
+      "indent": ["error", 2]
     }
   },
   "husky": {
