@@ -77,9 +77,13 @@
     "rules": {
       "react/jsx-indent": [
         "error",
-        2
+        2,
+        {
+          "baseIndent": 1
+        }
       ],
-      "no-console": "off"
+      "no-console": "off",
+      "indent": "off"
     }
   },
   "husky": {
